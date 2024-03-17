@@ -1,17 +1,15 @@
 import streamlit as st
 
-
-def set_layout_style():
+def set_single_image_style():
 
     st.markdown("""
         <style>
-        /* Main page styling */
-        ..big-font {
+        .big-font {
             font-size:25px !important;
             font-weight: bold;
             color: #4CAF50;
             text-align: center;
-            margin-left: 52px
+            margin-left: 30px
         }
         .image-display {
             display: flex;
@@ -27,15 +25,7 @@ def set_layout_style():
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-left: 266px;
+            margin-left: 250px;
         }
-        
-        .prediction-text {
-            font-size: 20px;
-            color: #FF4B4B;
-            font-weight: bold;
-            text-align: center;
-        }
-
         </style>
         """, unsafe_allow_html=True)
