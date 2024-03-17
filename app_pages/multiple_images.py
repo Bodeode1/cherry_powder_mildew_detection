@@ -7,7 +7,7 @@ def show():
     uploaded_files = st.file_uploader("Upload cherry leaf images", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
 
     if uploaded_files:
-        cols = st.columns(3)
+        cols = st.beta_columns(3)
         predictions = []
 
         if 'predictions' not in st.session_state:
