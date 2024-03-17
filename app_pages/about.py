@@ -1,8 +1,6 @@
 import streamlit as st
-from src import styles
 
 def show():
-    styles.set_layout_style()
     st.title("About Powdery Mildew")
 
     st.markdown("""
