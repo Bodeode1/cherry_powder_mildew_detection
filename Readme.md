@@ -47,7 +47,6 @@ The company is in need of a resolution in the shape of a machine learning system
 * **cv2**: Library used to load imgs and plot them
 * **Altair/Seaborn/Matplotlib for visualization**: Library used to plot charts (such as bar charts, evaluation charts has (confusion matrix, loss and accuracy line charts etc)), Altair was used in frontend app to show total count of normal and powder mildew bar chart count chart
 
-
 ## Dashboard Design
 The Streamlit dashboard is designed to provide an interactive user experience with three main sections:
 
@@ -57,6 +56,8 @@ The Streamlit dashboard is designed to provide an interactive user experience wi
   * A 'Predict' button that, when clicked, will show the model's prediction right below the image.
   * Predictions are color-coded for easy identification - green for healthy and red for powdery mildew.
 
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/s1.png?raw=true)
+
 * **Multiple Images Prediction**:
   * An upload box allowing multiple images to be uploaded simultaneously.
   * Uploaded images are displayed in a gallery format.
@@ -64,10 +65,14 @@ The Streamlit dashboard is designed to provide an interactive user experience wi
   * Each image is annotated with a prediction below it, following the same color-coding as the single image prediction.
   * A summary bar chart visualizing the count of healthy vs. powdery mildew leaves, empowering users to gain quick insights into the health of multiple cherry leaves.
 
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/s2.png?raw=true)
+
 * **About**:
   * Detailed information about powdery mildew and its impact on cherry leaves.
   * Visual aids to help users recognize symptoms of the disease.
   * An overview of the model's architecture, explaining how the AI makes its predictions.
+
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/s3.png?raw=true)
 
 This interface ensures that both experts and non-experts can efficiently utilize the tool to assess the health of cherry leaves.
 
@@ -90,6 +95,8 @@ This interface ensures that both experts and non-experts can efficiently utilize
 **Resolution Status**: This bug is acknowledged but remains unfixed. 
 
 **Note**: This issue does not affect the core functionality of the prediction set and can be reliably bypassed using the described workaround.
+
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/Error.png?raw=true)
 
 ## Deployment
 ### Heroku
