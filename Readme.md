@@ -36,6 +36,37 @@ The company is in need of a resolution in the shape of a machine learning system
 * **Hypothesis 2**: The identification of powdery mildew disease can be facilitated by examining the colour and textural characteristics of cherry leaves.
     * **Validation**: Employ visualisation plot to identify the primary color distribution and features upon which the model heavily relies for predicating outcomes.
 
+#  Map Business requirements to the Data Visualisations and ML tasks
+The primary objective of this research is to facilitate the effective and precise identification of powdery mildew in cherry leaves, with the aim of assisting farmers and agricultural experts in early detection of diease and and preveneting crop damages. 
+The following user stories map certain machine learning and data visualizations task, outlining the actions needed for their implementation:
+
+### User Story 1: Early Detection for Timely Intervention
+
+* **As a** Cherry farmer,
+* **I want** an automated tool to detect powdery mildew on cherry leaves accurately,
+* **So that** I can use it for early detection and prevent the spread of the disease.
+* ML Task: Development of Convolutional Neural Network Model for the classfication of cherry leaf as healthy or powdery mildew.
+* Data visualization: Display each image prediction along with chart to show how many are healthy and powdery mildew on the Streamlit app to give a clear feedback on the model assessment.
+
+### User Story 2: Understand Disease Prevalence
+
+* ***As an*** agricultural specialist
+* **I want** to have a system which can help in analyzing the prevalence of powdery mildew in multiple different crops of cherry.
+* **So that** it can help in advicing farmers to implement different diease management strategies more effectively and timely.
+* ML Task: Aggregate the overall predictions data to easily analyze diease across multiple iamges of different cherry crops and tell which crops have the issues.
+* Data Visualization: implementation of Bar charts in the Streamlit app to show the proportion (Count) of healthy vs powdery mildew among the uploaded cherry crop images, helping in understanding how much the diease is spread in that specific crop.
+
+### User Story 3: Insights Into Model Accuracy
+* **As an** plant pathology researcher
+* **I want** to understand the performance of the model to evaluate.
+* **So that** I can help trust the tool for academic reasearch
+* ML Task: Provide detail evaluation method which include acccuracy, precision ,recall, F1-score and confusion matrix.
+* Data Visualization: Provide a compreshensive analysis section which contain proper plot of Confusion matrix and precision, recall, f1-score table.
+
+
+## ML Business Case
+
+
 ## Main Data Analysis and Machine Learning Libraries
 
 * **Python**: Main Langague we used to create the Application and Machine learning model
