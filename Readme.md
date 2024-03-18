@@ -63,7 +63,6 @@ The following user stories map certain machine learning and data visualizations 
 * ML Task: Provide detail evaluation method which include acccuracy, precision ,recall, F1-score and confusion matrix.
 * Data Visualization: Provide a compreshensive analysis section which contain proper plot of Confusion matrix and precision, recall, f1-score table.
 
-
 ## ML Business Case
 
 
