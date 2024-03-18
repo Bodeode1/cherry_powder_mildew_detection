@@ -68,6 +68,7 @@ The comprehensive insights that are crucial for corporate decision-making can be
 
 * **Class Distribution**: To ensure that data is distrbuted correctly and there is not class imbalance, we analyzed the distribution of healthy and powder mildew classes, using barplot. From the bar chart analysis, it was clear that the distribution of classes are evenly balanced, with a nearly equal number of images for both healthy and powdery mildew-infected cherry leaves. 
 this balance show that data is not class imbalanced and model will be not baised toward a specific class.
+
 ![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/class.png?raw=true)
 
 * **Average Color Distribution & Difference in Color Intensity**:
@@ -77,6 +78,7 @@ Histogram was created to show the visual representation of the average color dis
 
 * **Model Performance Metrics**: The classification report and confusion matrix provide a thorough analysis of the model's prediction power. 
 from the charts we can see that model achieve an precision, recall, and F1-score values of 0.99 percent for both classe, which showed that CNN model did a very good job of accurately identifying the cherry leaves dieases.
+
 ![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/ac.png?raw=true)
 ![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/loss.png?raw=true)
 ![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/cr.png?raw=true)
