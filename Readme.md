@@ -64,9 +64,25 @@ The following user stories map certain machine learning and data visualizations 
 * Data Visualization: Provide a compreshensive analysis section which contain proper plot of Confusion matrix and precision, recall, f1-score table.
 
 ## ML Business Case
+The comprehensive insights that are crucial for corporate decision-making can be obtained through the analysis of visualizations and the interpretation of machine learning (ML) outcomes that are map according to busniess requirements. Following are the analytics and visulization outcome based on each business case. 
 
+* **Class Distribution**: To ensure that data is distrbuted correctly and there is not class imbalance, we analyzed the distribution of healthy and powder mildew classes, using barplot. From the bar chart analysis, it was clear that the distribution of classes are evenly balanced, with a nearly equal number of images for both healthy and powdery mildew-infected cherry leaves. 
+this balance show that data is not class imbalanced and model will be not baised toward a specific class.
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/class.png?raw=true)
 
-## Main Data Analysis and Machine Learning Libraries
+* **Average Color Distribution & Difference in Color Intensity**:
+Histogram was created to show the visual representation of the average color distribution which offers  insights into the contrasting color characteristics between healthy leaves and leaves affected by powdery mildew. The chart shows the pixel intensity within three distinct color channels, namely Red, Green, and Blue, pertaining to the condition of cherry leaves. The curves illustrate the occurrence rate of various pixel intensity values. A higher peak height indicates a greater prevalence of a specific intensity within the sample. For healthy leaves, it looks like the peaks are at similar intensity values across all three color channels, suggesting a balanced color representation, though the distribution curves slightly differ from the healthy leaves, The red channel in this instance displays the biggest difference, followed by the green and blue channels. This suggests that the effects of powdery mildew on leaf color are particularly noticeable in the red channel hence indicating that the pixel denstiy of color changes due to the disease.
+
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/average.png?raw=true)
+
+* **Model Performance Metrics**: The classification report and confusion matrix provide a thorough analysis of the model's prediction power. 
+from the charts we can see that model achieve an precision, recall, and F1-score values of 0.99 percent for both classe, which showed that CNN model did a very good job of accurately identifying the cherry leaves dieases.
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/ac.png?raw=true)
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/loss.png?raw=true)
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/cr.png?raw=true)
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/cm.png?raw=true)
+
+* ## Main Data Analysis and Machine Learning Libraries
 
 * **Python**: Main Langague we used to create the Application and Machine learning model
 * **Streamlit**: Library used to create the Front End Application to detect Cherry leaf diease
