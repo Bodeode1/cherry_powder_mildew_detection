@@ -115,6 +115,14 @@ The Streamlit dashboard is designed to provide an interactive user experience wi
 
 ![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/s2.png?raw=true)
 
+* **Gallery Images Prediction**:
+   * Gallery Images: Show Predefine Images which you can chose for prediction.
+   * Next Button: Show Next Image where images are random and can get both healthy or Powdery.
+   * 'Predict' Button: When clicked, it triggers the analysis of the shown images.
+   * Image Annotations with Predictions: Displays a prediction label below the shown image.
+
+![alt text](https://github.com/Bodeode1/cherry_powder_mildew_detection/blob/main/images/gallery.png?raw=true)
+
 * **About**:
   * Detailed information about powdery mildew and its impact on cherry leaves.
   * Visual aids to help users recognize symptoms of the disease.
