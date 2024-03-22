@@ -7,6 +7,7 @@ from src.multiple_images_styles import set_multiple_images_style
 def show():
     set_multiple_images_style()
     st.title("🍒 Cherry Leaf Disease Detection - Multiple Images")
+    st.markdown("<h3 style='text-align: center;'>Download the dataset <a href='https://www.kaggle.com/datasets/codeinstitute/cherry-leaves' target='_blank'>here</a></h3>", unsafe_allow_html=True)
 
     uploaded_files = st.file_uploader("Upload cherry leaf images", type=["png", "jpg", "jpeg"],
                                       accept_multiple_files=True)
