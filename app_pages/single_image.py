@@ -5,6 +5,8 @@ from src.single_image_styles import set_single_image_style
 def show():
     set_single_image_style()
     st.title("🍒 Cherry Leaf Disease Detection - Single Image")
+    st.markdown("<h3 style='text-align: center;'>Download the dataset <a href='https://www.kaggle.com/datasets/codeinstitute/cherry-leaves' target='_blank'>here</a></h3>", unsafe_allow_html=True)
+
     uploaded_file = st.file_uploader("Upload a cherry leaf image", type=["png", "jpg", "jpeg"])
 
     if uploaded_file is not None:
