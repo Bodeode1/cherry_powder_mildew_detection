@@ -1,5 +1,5 @@
 import streamlit as st
-from app_pages import single_image, multiple_images, about, image_gallery
+from app_pages import single_image, multiple_images, about, image_gallery,performance
 
 st.set_page_config(page_title="Cherry Leaf Disease Detection", layout="centered")
 st.sidebar.title('Navigation')
