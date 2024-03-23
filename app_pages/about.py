@@ -10,19 +10,20 @@ def show():
 
     st.image('images/mildew.png', caption='Powdery Mildew on Cherry Leaves', use_column_width=True)
 
-   st.markdown("""
+    st.markdown("""
            ## Project Overview
-
+    
            - **Data Acquisition**: The cherry leaves dataset, comprising images categorized into healthy and powdery mildew-infected leaves, was fetched from Kaggle.
-
+    
            - **Data Preparation**: Employed image preprocessing and augmentation techniques, such as rotation, shifting, and flipping, to enhance model training.
-
+    
            - **Exploratory Data Analysis**: Conducted visualizations to understand the dataset's class distribution and the average color distribution among classes.
-
+    
            - **Model Development**: Developed a CNN model, tuned its hyperparameters, and evaluated its performance using metrics such as accuracy, precision, and recall.
-
+    
            - **Model Deployment**: The trained model was saved and integrated into this web application for real-time disease detection.
        """)
+
     st.markdown("""
            ## Hypotheses and Validation
 
@@ -35,9 +36,9 @@ def show():
              **Validation**: Utilized visualization plots to examine the primary color distributions and textural features that the model relies on for making predictions.
        """)
 
- st.markdown("""
-           
-
-           ## Model Archietecture
-       """)
-    st.image('images/diagram.png', caption='Model Architecture', use_column_width=True)
+     st.markdown("""
+               
+    
+               ## Model Archietecture
+           """)
+        st.image('images/diagram.png', caption='Model Architecture', use_column_width=True)
