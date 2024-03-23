@@ -36,9 +36,9 @@ def show():
              **Validation**: Utilized visualization plots to examine the primary color distributions and textural features that the model relies on for making predictions.
        """)
 
-     st.markdown("""
-               
-    
-               ## Model Archietecture
-           """)
-        st.image('images/diagram.png', caption='Model Architecture', use_column_width=True)
+    st.markdown("""
+           
+
+           ## Model Archietecture
+       """)
+    st.image('images/diagram.png', caption='Model Architecture', use_column_width=True)
