@@ -1,7 +1,7 @@
 # Cherry Leaf Disease Detection
 
 The Project focus on creating a full stack application which uses machine learning capabiltiy to detect powdery mildew disease in cherry leaves. In this study, a Convolutional Neural Network (CNN) is employed to examine imgaes of cherry leaves with the objective of categorizing them into two distinct groups: healthy or diseased. The project's result is a user-friendly Streamlit application that offers immediate predictions to users.
-
+Visit the live website here! [Cherry Leaf](https://cherry-leaves-app-4554e70202ef.herokuapp.com/)
 # Dataset Content
 This project utilizes a dataset comprised of cherry leaf images sourced from kaggle (https://www.kaggle.com/datasets/codeinstitute/cherry-leaves). The dataset is specifcally desigined to challenge the issue of detecting powdery mildew diease in cherry leaves. The dataset consists of 4208 imgaes of cherry leaves that have been classified into two categories: 'powdery_mildew' and 'healthy'. The images utilized in this study were obtained from Kaggle's Cherry Leaves Dataset. By leveraging this dataset in this project, we hope to demonstrate a practical application that uses machine learning in agriculture to help reduce the labor-intensive manual task of detecting and inspecting plants to a more automated level, resulting in an efficient and scalable solution.
 
